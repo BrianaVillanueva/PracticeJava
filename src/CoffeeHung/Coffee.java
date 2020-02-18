@@ -1,3 +1,4 @@
+package CoffeeHung;
 
 
 //Create a class called 'Coffee' that has three properties of name,
@@ -7,7 +8,7 @@ public class Coffee {
     public String roast;
     public int id;
 
-//Create a constructor that sets all the initial values
+    //Create a constructor that sets all the initial values
     public Coffee(String name, String roast, int id) {
         this.name = name;
         this.roast = roast;
@@ -16,7 +17,7 @@ public class Coffee {
 //Create getters and setters for each property.
 // Hint: You will need 3 setters and 3 getters.
 
-//-----GETTERS-----//
+    //-----GETTERS-----//
     public String getName() {
         return name;
     }

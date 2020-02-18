@@ -1,3 +1,5 @@
+package CoffeeHung;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -64,7 +66,7 @@ public class CoffeeApp {
         coffeeApp.removeCoffee(0);
 
         try {
-            Path coffeeFile = Paths.get("src", "coffees.txt");
+            Path coffeeFile = Paths.get("src", "CoffeeHung/coffees.txt");
             CoffeeApp.readFromFile(coffeeFile);
         } catch (IOException ioe){
             ioe.printStackTrace();
